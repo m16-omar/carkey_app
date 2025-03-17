@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:carkey_app/screens/dashboard_screen.dart';
 
 class ProfileSettingsScreen extends StatelessWidget {
   const ProfileSettingsScreen({super.key});
