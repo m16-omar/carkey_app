@@ -10,9 +10,9 @@ class ProfileSettingsScreen extends StatelessWidget {
         backgroundColor: Colors.purple,
         elevation: 1,
         leading: IconButton(
-          icon: const Icon(Icons.arrow_back_ios_new, color: Colors.white),
+          icon: const Icon(Icons.arrow_back, color: Colors.black),
           onPressed: () {
-            Navigator.pushNamed(context, '/dashboard');
+            Navigator.pushReplacementNamed(context, '/dashboard');
           },
         ),
         title: const Text(
